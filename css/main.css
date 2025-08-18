@@ -135,7 +135,7 @@ h3{
 }
 
 .item-4 h3{
-    font-size: 24px;
+    margin: 0 10px 0 0;
 }
 
 .bg_img4{
@@ -147,8 +147,21 @@ h3{
 /*Card centrale destra*/
 
 .item-5{
+    background-color: hsl(39, 100%, 71%);
     grid-row: span 2;
 }
+
+.item-5 .card{
+    padding: 14px 14px 0 20px;
+}
+
+.bg_img5{
+    height: 55%;
+    margin: 10px 0 0px 0;
+    background-image: url(../img/illustration-consistent-schedule.webp);
+}
+
+
 
 /*Card sotto*/
 /*Card sotto sinistra*/
