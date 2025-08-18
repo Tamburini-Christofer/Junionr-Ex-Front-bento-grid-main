@@ -126,8 +126,22 @@ h3{
 /*Card centrale sinistra*/
 
 .item-4{
-    grid-row: span 4;
+    background-color: #fdfbfe;
+    grid-row: span 2;
+}
 
+.item-4 .card{
+    padding: 10px 0 10px 20px;
+}
+
+.item-4 h3{
+    font-size: 24px;
+}
+
+.bg_img4{
+    height: 30%;
+    margin: 10px 0 25px 0;
+    background-image: url(../img/illustration-multiple-platforms.webp);
 }
 
 /*Card centrale destra*/
@@ -143,10 +157,15 @@ h3{
     grid-row: span 3;
 }
 
-/*Card sotto*/
-/*Card sotto destra*/
+/*Card sotto centrale*/
 
 .item-7{
+    grid-row: span 2;
+}
+
+/*Card sotto destra*/
+
+.item-8{
     grid-column: span 2;
     grid-row: span 2;
 }
