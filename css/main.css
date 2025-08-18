@@ -22,9 +22,14 @@ body{
     color: hsl(39, 100%, 71%);
 }
 
-.text_small{
+.text_white{
     color: white;
-    font-size: 10px;
+}
+
+.text_small{
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 12px;
 }
 
 /*Regole titoli*/
@@ -37,6 +42,12 @@ h1{
 h2{
     font-weight: 400;
     line-height: 24px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
 }
 
 /*Regole Grid*/
@@ -71,7 +82,7 @@ h2{
 
 .item-1 .card img{
     max-width: 100%;
-    padding: 20px 30px 20px 0;
+    padding: 20px 0px 20px 0;
 }
 
 /*Card alto centrale*/
@@ -95,7 +106,20 @@ h2{
 /*Card alto destra*/
 
 .item-3{
+    background-color: hsl(254, 88%, 90%);
     grid-row: span 4;
+}
+
+.item-3 .card{
+    padding: 10px 0 10px 20px;
+}
+
+.bg_img{
+    height: 60%;
+    margin: 20px 0;
+    background-image: url(../img/illustration-schedule-posts.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*Card centrale*/
@@ -130,12 +154,11 @@ h2{
 /*Contenuto griglie*/
 
 .card{
-    width: 90%;
     height: 90%;
     justify-self: center;
     align-self: center;
 
-    padding: 40px 20px;
+    padding: 40px;
 
 }
 
