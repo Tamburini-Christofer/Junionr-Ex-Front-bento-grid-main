@@ -66,13 +66,13 @@ h3{
 
 .item{
     display: grid;
-    border-radius: 10px;
 
-    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .card{
     height: 90%;
+
     justify-self: center;
     align-self: center;
 
@@ -146,6 +146,7 @@ h3{
 }
 
 .item-4 h3{
+    font-size: 20px;
     margin: 0 10px 0 0;
 }
 
@@ -166,8 +167,12 @@ h3{
     padding: 14px 14px 0 20px;
 }
 
+.item-5 .card h3{
+    font-size: 20px;
+}
+
 .bg_img5{
-    height: 79px;
+    height: 50%;
     margin: 20px 0 0px 0;
     background-image: url(../img/illustration-consistent-schedule.webp);
 }
@@ -176,7 +181,7 @@ h3{
 /*Card sotto sinistra*/
 
 .item-6{
-        background-color: hsl(39, 100%, 71%);
+    background-color: hsl(39, 100%, 71%);
     grid-row: span 3;
 }
 
@@ -213,6 +218,24 @@ h3{
     background-color: #7651dc;
     grid-column: span 2;
     grid-row: span 2;
+}
+
+.item-8 .card{
+    padding: 20px;
+    justify-self:left;
+}
+
+.item-8 .card img{
+    float:left;
+    max-width: 45%;
+}
+
+.item-8 .card h3{
+    margin: 8% 0;
+    vertical-align: end;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 22px;
 }
 
 
