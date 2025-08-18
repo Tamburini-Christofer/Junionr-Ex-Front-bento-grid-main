@@ -232,7 +232,6 @@ h3{
 
 .item-8 .card h3{
     margin: 8% 0;
-    vertical-align: end;
     font-size: 28px;
     font-weight: 500;
     line-height: 22px;
@@ -330,15 +329,11 @@ h3{
         width: 90%;
         }
 
-  
-
         .item-5 .card   .bg_img {
         height: 129px;
         margin: 20px 0 0 0;
         width: 70%;
         }
-
-  
 
         .item-6 .card img {
         max-width: 70%;
@@ -348,8 +343,6 @@ h3{
         font-weight: 600;
         line-height: 26px;
         }
-
- 
 
         .item-7 .card img {
         margin-top: 10px;
