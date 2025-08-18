@@ -18,7 +18,21 @@ body{
     color: hsl(256, 67%, 59%);
 }
 
+.text_orange{
+    color: hsl(39, 100%, 71%);
+}
+
+.text_small{
+    color: white;
+    font-size: 10px;
+}
+
 /*Regole titoli*/
+
+h1{
+    font-weight: 500;
+    color: white;
+}
 
 h2{
     font-weight: 400;
@@ -33,7 +47,7 @@ h2{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
 
-    width: 1000px;
+    width: 800px;
     height: 620px;
     margin: 10px auto;
 }
@@ -47,6 +61,9 @@ h2{
     border: 1px solid black;
 }
 
+/*Card alto*/
+/*Card alto sinistra*/
+
 .item-1{
     background-color: #faeee2;
     grid-row: span 3;
@@ -57,27 +74,53 @@ h2{
     padding: 20px 30px 20px 0;
 }
 
+/*Card alto centrale*/
+
 .item-2{
+    background-color: #7651dc;
     grid-column: span 2;
     grid-row: span 2;
 }
 
+.item-2 .card{
+    text-align: center;
+    padding: 20px;
+}
+
+.item-2 .card img{
+    max-width: 40%;
+    margin: 0 30%;
+}
+
+/*Card alto destra*/
+
 .item-3{
     grid-row: span 4;
 }
+
+/*Card centrale*/
+/*Card centrale sinistra*/
 
 .item-4{
     grid-row: span 4;
 
 }
 
+/*Card centrale destra*/
+
 .item-5{
     grid-row: span 2;
 }
 
+/*Card sotto*/
+/*Card sotto sinistra*/
+
 .item-6{
     grid-row: span 3;
 }
+
+/*Card sotto*/
+/*Card sotto destra*/
 
 .item-7{
     grid-column: span 2;
@@ -96,8 +139,4 @@ h2{
 
 }
 
-.card-1{
-    justify-self: center;
-    align-self: center;
-}
 
