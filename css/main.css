@@ -59,7 +59,6 @@ h3{
     grid-template-rows: repeat(6, 1fr);
 
     width: 800px;
-    height: 620px;
     margin: 10px auto;
 }
 
@@ -72,12 +71,24 @@ h3{
     border: 1px solid black;
 }
 
+.card{
+    height: 90%;
+    justify-self: center;
+    align-self: center;
+
+    padding: 20px;
+}
+
 /*Card alto*/
 /*Card alto sinistra*/
 
 .item-1{
     background-color: #faeee2;
     grid-row: span 3;
+}
+
+.item-1 .card{
+    padding: 40px 20px 20px 20px;
 }
 
 .item-1 .card img{
@@ -140,7 +151,7 @@ h3{
 
 .bg_img4{
     height: 30%;
-    margin: 10px 0 25px 0;
+    margin: 0px 0 30px 0;
     background-image: url(../img/illustration-multiple-platforms.webp);
 }
 
@@ -156,18 +167,26 @@ h3{
 }
 
 .bg_img5{
-    height: 55%;
-    margin: 10px 0 0px 0;
+    height: 65px;
+    margin: 26px 0 0px 0;
     background-image: url(../img/illustration-consistent-schedule.webp);
 }
-
-
 
 /*Card sotto*/
 /*Card sotto sinistra*/
 
 .item-6{
+        background-color: hsl(39, 100%, 71%);
     grid-row: span 3;
+}
+
+.item-6 .card{
+    padding: 10px 10px 25px 20px;
+}
+
+.item-6 .card img{
+    margin-top: 30px;
+    max-width: 100%;
 }
 
 /*Card sotto centrale*/
@@ -183,15 +202,6 @@ h3{
     grid-row: span 2;
 }
 
-/*Contenuto griglie*/
 
-.card{
-    height: 90%;
-    justify-self: center;
-    align-self: center;
-
-    padding: 40px;
-
-}
 
 
