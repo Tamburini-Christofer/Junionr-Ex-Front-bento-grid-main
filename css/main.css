@@ -151,7 +151,7 @@ h3{
 
 .bg_img4{
     height: 30%;
-    margin: 0px 0 30px 0;
+    margin: 0px 0 20px 0;
     background-image: url(../img/illustration-multiple-platforms.webp);
 }
 
@@ -167,8 +167,8 @@ h3{
 }
 
 .bg_img5{
-    height: 65px;
-    margin: 26px 0 0px 0;
+    height: 79px;
+    margin: 20px 0 0px 0;
     background-image: url(../img/illustration-consistent-schedule.webp);
 }
 
@@ -192,12 +192,25 @@ h3{
 /*Card sotto centrale*/
 
 .item-7{
+    background-color: white;
     grid-row: span 2;
+}
+
+.item-7 .card img{
+    margin-top: 30px ;
+    max-width: 100%;
+}
+
+.item-7 h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 /*Card sotto destra*/
 
 .item-8{
+    background-color: #7651dc;
     grid-column: span 2;
     grid-row: span 2;
 }
